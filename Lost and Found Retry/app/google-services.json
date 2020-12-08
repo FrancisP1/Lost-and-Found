@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751979570647",
+    "project_id": "lost-and-found-firebase-5",
+    "storage_bucket": "lost-and-found-firebase-5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751979570647:android:916d38ba3e688eb4eb1792",
+        "android_client_info": {
+          "package_name": "com.example.lostandfoundretry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751979570647-tais8tqrcvd50h3h2bn2klc2qhtsstq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAohy9QBOemxl7EOlGGztxTbaatxlhuKiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751979570647-tais8tqrcvd50h3h2bn2klc2qhtsstq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

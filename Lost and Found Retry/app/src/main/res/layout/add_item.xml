@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical" >
+
+    <TextView
+        android:id = "@+id/header"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textSize = "32sp"
+        android:text = "Add an item you found" />
+
+    <Spinner
+        android:id="@+id/item_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Type of item" />
+
+    <ListView
+        android:id = "@+id/itemList"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "16sp" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Brand"
+        android:inputType="text"
+        android:backgroundTint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Item (Jacket, hat, hoodie, etc.)"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Color"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Size"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/furtherDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Further Description (Optional)"
+        android:inputType="text"/>
+
+    <Button
+        android:id = "@+id/enterItem"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "16sp"
+        android:text = "Enter Item" />
+
+</LinearLayout>

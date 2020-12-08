@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:label="Lost and Found"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="15sp"
+    android:layout_marginBottom="15sp"
+    android:orientation = "vertical" >
+
+    <TextView
+        android:id = "@+id/header"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textSize = "32sp"
+        android:text = "Welcome" />
+
+    <ListView
+        android:id = "@+id/itemList"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "16sp" >
+
+    </ListView>
+
+    <Button
+        android:id = "@+id/addItem"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "16sp"
+        android:text = "Add an item you found" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:id = "@+id/scroll"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id = "@+id/scrollLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
